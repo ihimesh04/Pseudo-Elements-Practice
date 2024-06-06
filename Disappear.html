@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title> Disappear </title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            font-family: cursive;
+        }
+
+        body {
+            background-image: url('../Images/Pic-17.jpg');
+            background-size: cover;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: rgba(255, 255, 255, 0.736);
+
+        }
+
+        a {
+            font-family: cursive;
+            font-weight: bold;
+            font-size: 23px;
+            color: rgb(131 248 255);
+        }
+
+        .heading {
+            width: 900px;
+            height: auto;
+            margin: 50px auto;
+            text-align: justify;
+        }
+
+        .heading1 {
+            width: 900px;
+            height: auto;
+            margin: 50px auto;
+            text-align: justify;
+            padding-left: 40px;
+        }
+
+        .main {
+            width: 900px;
+            height: auto;
+            border: 10px dashed rgb(0, 0, 0);
+            margin: 50px auto;
+            border-radius: 20px;
+            background-color: black;
+            background-image: url('../Images/Pic-13.jpg');
+            background-size: cover;
+            background-origin: border-box;
+        }
+
+        .box {
+            width: 200px;
+            height: 200px;
+            margin: 48px;
+            float: left;
+            text-align: center;
+            line-height: 200px;
+            font-size: 20px;
+            color: black;
+            font-weight: bold;
+        }
+
+        .box:nth-child(1) {
+            background-color: blue;
+            border-radius: 100px;
+            transition: 2s;
+            background-image: url('../Images/Pic-15.jpg');
+            background-size: cover;
+        }
+
+        .box:nth-child(2) {
+            background-color: yellow;
+            border-radius: 100px;
+            transition: 4s;
+            background-image: url('../Images/Pic-15.jpg');
+            background-size: cover;
+        }
+
+        .box:nth-child(3) {
+            background-color: green;
+            border-radius: 100px;
+            transition: 6s;
+            background-image: url('../Images/Pic-15.jpg');
+            background-size: cover;
+        }
+
+        .main:hover .box {
+            background-color: red;
+        }
+
+        .main:hover .box:nth-child(1) {
+            opacity: 0;
+
+            /*visibility: hidden;
+
+            /*display: none;*/
+        }
+
+        .main:hover .box:nth-child(2) {
+            opacity: 0;
+        }
+
+        .main:hover .box:nth-child(3) {
+            opacity: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <h2 class="h2">
+            In CSS, :hover is a pseudo-class that styles an element when a user hovers over it with a pointing device
+            like a mouse. It allows for the definition of specific styles that apply only when the element is being
+            hovered.
+            Commonly used for interactive elements, providing visual feedback during user interaction.
+            <br>
+            <br>
+            In CSS, making an element "disappear" typically refers to hiding it from view on the web page. There are
+            several ways to achieve this effect. Here are some common methods:
+        </h2>
+    </div>
+    <div class="main">
+        <div class="box"> <a href="https://www.wscubetech.com/mern-stack-development-course-jaipur.html"> HTML </a>
+        </div>
+        <div class="box"> <a href="https://www.wscubetech.com/mern-stack-development-course-jaipur.html"> CSS </a>
+        </div>
+        <div class="box"> <a href="https://www.wscubetech.com/mern-stack-development-course-jaipur.html"> JavaScript
+            </a>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <h2 class="heading1">
+        <ol>
+            <li> display: none; </li>
+            <li> opacity: 0 to 1; </li>
+            <li> visibility: hidden; </li>
+        </ol>
+    </h2>
+</body>
+
+</html>

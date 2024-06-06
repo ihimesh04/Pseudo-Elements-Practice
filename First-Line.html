@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> First Line </title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            font-family: sans-serif;
+            color: white;
+        }
+
+        body {
+            background-image: url('../Images/Pic-1.jpg');
+            background-size: cover;
+        }
+
+        .main {
+            width: 600px;
+            height: auto;
+            border: 10px solid black;
+            border-radius: 30px;
+            margin: 50px auto;
+            padding: 10px;
+            text-align: justify;
+            font-size: 20px;
+            line-height: 25px;
+        }
+
+        .main::first-line {
+            font-size: 25px;
+            color: blue;
+            font-weight: bold;
+            line-height: 30px;
+        }
+
+        .main::first-letter {
+            font-size: 40px;
+            color: red;
+        }
+
+        .main::selection {
+            color: rgb(255, 0, 0);
+            background-color: lightskyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        WsCube Tech, a Vernacular Upskilling Edtech, develops and disseminates Tech-powered Career Acceleration Programs
+        and Job Oriented Professional Courses curated for Job Aspirants from Tier 2, 3 & 4 Demographics (Bharat),
+        readying them for Global workforce opportunities.
+        <br>
+        With its Tech-enabled hybrid delivery environment, the Company aims to disrupt Career Readiness at scale for
+        over 100 Million Job Aspirants in deep demographics of “Bharat“ and set them competitively ready with
+        professional hands-on skills to crack their dream career opportunities. Thus, WsCube Tech distinctively stands
+        with the “Upskilling Bharat” Proposition.
+    </div>
+</body>
+
+</html>

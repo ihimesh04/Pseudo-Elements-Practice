@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Marker </title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            font-family: sans-serif;
+        }
+
+        body {
+            background-image: url('../Images/Pic-6.jpg');
+            background-size: cover;
+        }
+
+        .main {
+            width: 900px;
+            margin: 50px auto;
+            border: 5px dashed black;
+            border-radius: 30px;
+            background-image: url('../Images/Pic-2.jpg');
+            background-size: cover;
+            background-origin: border-box;
+        }
+
+        ol {
+            width: 900px;
+            margin: 50px auto;
+            margin-left: 50px;
+        }
+
+        li {
+            font-size: 20px;
+            margin: 10px 0px;
+            color: black;
+            font-weight: bold;
+        }
+
+        li::marker {
+            font-size: 25px;
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <ol>
+            <li> Hypertext Markup Language. </li>
+            <li> Cascading Style Sheet. </li>
+            <li> JavaScript. </li>
+            <li> JQuery. </li>
+            <li> BootStrap. </li>
+            <li> React. </li>
+        </ol>
+    </div>
+</body>
+
+</html>
